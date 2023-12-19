@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Rajdhani:wght@300&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    position: static;
+    transition: background-color 0.5s ease; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+    
+    .img {
+        background-color: #6211a7;
+        clip-path: ellipse(50% 50% at 50% 50%);
+        margin-top: 77px;
+        color: aliceblue;
+        max-width: 35%;
+        margin-left: 34rem;
+        height: max-content;
+       
+      
+    }
+    .svgs{
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        position: relative;
+        top: 11%;
+        left: 83%;
+    }
+    
+    section{
+        background-color: #6211a7;
+        color: aliceblue;
+        display: flex;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+    }
+    section .text-toBe-Changed{
+        position: absolute;
+        top: 26%;
+        left: 72%;
+        width: 100%;
+    }
+    .scroll{
+        display: flex;
+        color: rgb(0, 132, 248);
+        width: 50%;
+        right: -50%;
+        height: 100vh;
+        top: 0%;
+        position: relative;
+    
+    }
+
+    #imgBg {
+z-index: -1;
+background-color: #aeadb0;
+    }
+    #imgBg img {
+
+margin-top: 5rem;
+left: 0%;
+width: 378px;
+position: relative;
+height: 503px
+    }
+    #imgBg-1{
+z-index: -1;
+    }
+    /* For img */
+ 
+    #imgBg-2{
+z-index: -1;
+    }
+    #imgBg-3{
+z-index: -1;
+    }
+    #imgBg-4{
+z-index: -1;
+    }
+    #imgBg-5{
+z-index: -1;
+    }
+    #imgBg-6{
+z-index: -1;
+    }
+
+
+    /* Image positioning */
+
+    /* For second  */
+    .is1{
+        position: relative;
+        left: 14%;
+        right: 0%;
+        top: 21%;
+        width: 212px;
+        height: 361px;
+    }
+    .is2{
+        position: relative;
+        left: 27%;
+        right: 0%;
+        top: 0%;
+        width: 194px;
+        height: 298px;
+    }
+
+
+    /* Third */
+
+
+    .it1{
+        position: relative;
+        left: 14%;
+        right: 0%;
+        top: 42%;
+        width: 262px;
+        height: 461px;
+
+    }
+    .it2{
+        position: relative;
+        left: 27%;
+        right: 0%;
+        top: 0%;
+        width: 194px;
+        height: 398px;
+    }
+
+    /* For Fourth */
+
+.if1{
+    width: 600px;
+    height: 200px;
+}
+.if2{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    top: 49%;
+    right: 40%;
+    left: -31%;
+}
+
+.if3{
+    width: 400px;
+    height: 300px;
+position: relative;
+top: -16%;
+left: -8%;
+}
+.if4{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    right: 40%;
+    top: 25%;
+}
+.if5{
+    width: 400px;
+    height: 200px;
+    right: 80%;
+    top: 79%;
+    position: relative;
+}
+
+/* For Fifth */
+.ifv1{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    top: 1%;
+    right: 38%;
+    left: 6%;
+}
+.ifv2{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    top: 0%;
+    right: 50%;
+    left: 6%;
+}
+.ifv3{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    top: 33%;
+    right: 40%;
+    left: 16%;
+}
+.ifv4{
+    width: 236px;
+    height: 360px;
+    position: relative;
+    top: 50%;
+    right: 40%;
+    left: -72%;
+}
+.ifv5{
+    width: 236px;
+    height: 364px;
+    position: relative;
+    top: 50%;
+    right: 40%;
+    left: -68%;
+}
+/*  For six */
+.six{
+    width: 100%;
+    height: 100%;
+}
+/* for seventh */
+
+.sv1{
+    position: relative;
+    left: 14%;
+    right: 0%;
+    top: 20%;
+    width: 312px;
+    height: 461px;
+
+}
+.sv2{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 19%;
+    width: 250px;
+    height: 451px;
+}
+
+
+/*  For scroll bar
+ */
+ ::webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+
+  /* Handle on hover */
+  ::webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5); /* Change color on hover */
+  }
+
+  /* Set the color of the scrollbar handle */
+  ::webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Change color of the handle */
+  }
+
+  /* Set the color of the scrollbar track */
+  ::webkit-scrollbar-track {
+    background: transparent; /* Make the track transparent */
+  }
+
+/* this is for the text under the svg's */
+.last-text{
+    position: relative;
+    top: 50%;
+    left: -32%;
+    right: 0;
+
+
+}
+
+/*  For skip */
+.skip{
+    font-family:'Montserrat', sans-serif ;
+    position: relative;
+    left: 150%;
+    font-size: 23px;
+    right: 0%;
+}
+#last-h1{
+    font-weight: bolder;
+}
